@@ -1,0 +1,16 @@
+/**
+ * media queries
+ */
+@use 'sass:math';
+
+@mixin media-tablet {
+    @media (min-width: #{math.div(700em, 16)}) {
+        @content;
+    }
+}
+
+@mixin media-desktop {
+    @media (min-width: #{math.div(1024em, 16)}) {
+        @content;
+    }
+}
