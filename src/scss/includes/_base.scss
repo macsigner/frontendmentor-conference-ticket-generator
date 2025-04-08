@@ -1,0 +1,12 @@
+html {
+    font-size: 62.5%;
+}
+
+body {
+    min-height: 100lvh;
+    color: var(--color-white);
+    background-image: url('../assets/images/pattern-squiggly-line-bottom-mobile-tablet.svg'), url('../assets/images/background-mobile.png');
+    background-size: 30rem auto, cover;
+    background-repeat: no-repeat;
+    background-position: bottom left, center;
+}
