@@ -12,3 +12,10 @@
     background: none;
     appearance: none;
 }
+
+img,
+svg {
+    vertical-align: middle;
+    height: auto;
+    max-width: 100%;
+}

@@ -1,9 +1,21 @@
+/**
+ * base
+ */
+@use 'sass:math';
+
 html {
     font-size: 62.5%;
 }
 
 body {
     min-height: 100lvh;
+    font-family: Inconsolata, monospace;
+    font-size: 20px;
+    font-weight: 500;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.2;
+    letter-spacing: math.div(-0.5em, 20);
     color: var(--color-white);
     background-image: url('../assets/images/pattern-squiggly-line-bottom-mobile-tablet.svg'), url('../assets/images/background-mobile.png');
     background-size: 30rem auto, cover;
