@@ -6,4 +6,6 @@
 @use 'includes/reset';
 @use 'includes/custom_properties';
 @use 'includes/base';
+@use 'includes/modules/wrapper';
 @use 'includes/modules/main_header';
+@use 'includes/modules/header_group';

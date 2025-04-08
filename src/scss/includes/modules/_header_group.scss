@@ -1,0 +1,16 @@
+/**
+ * header-group bem module
+ */
+
+.header-group {
+    margin-bottom: 4rem;
+    text-align: center;
+
+    &__title {
+        color: var(--color-white);
+    }
+
+    &__detail {
+        color: var(--color-neutral-300);
+    }
+}
