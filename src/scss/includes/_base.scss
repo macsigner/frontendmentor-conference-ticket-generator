@@ -17,8 +17,8 @@ body {
     line-height: 1.2;
     letter-spacing: math.div(-0.5em, 20);
     color: var(--color-white);
-    background-image: url('../assets/images/pattern-squiggly-line-bottom-mobile-tablet.svg'), url('../assets/images/background-mobile.png');
-    background-size: 30rem auto, cover;
+    background-image: url('../assets/images/pattern-squiggly-line-top.svg'), url('../assets/images/pattern-squiggly-line-bottom-mobile-tablet.svg'), url('../assets/images/background-mobile.png');
+    background-size: 11.2rem auto, 30rem auto, cover;
     background-repeat: no-repeat;
-    background-position: bottom left, center;
+    background-position: top 2.39rem right, bottom left, center;
 }

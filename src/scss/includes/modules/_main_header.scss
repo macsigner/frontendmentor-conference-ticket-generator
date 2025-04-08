@@ -1,0 +1,15 @@
+/**
+ * main-header bem module
+ */
+
+.main-header {
+    display: flex;
+    justify-content: center;
+    padding-top: 3.3rem;
+    padding-right: var(--content-margin-side);
+    padding-left: var(--content-margin-side);
+
+    &__logo {
+        width: 16.65rem;
+    }
+}

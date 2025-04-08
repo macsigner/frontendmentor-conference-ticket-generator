@@ -12,4 +12,8 @@
     --color-range-500: hsl(7, 88%, 67%);
     --color-range-700: hsl(7, 71%, 60%);
     --color-gradient-text: hsl(7, 86%, 67%) to hsl(0, 0%, 100%);
+
+    // Sizes
+    --max-content-width: 120rem;
+    --content-margin-side: max(1.6rem, calc((100vw - var(--max-content-width)) / 2))
 }
