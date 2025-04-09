@@ -1,0 +1,20 @@
+/**
+ * button-large bem module
+ */
+
+.button-large {
+    display: block;
+    width: 100%;
+    padding: 16px 24px;
+    border-radius: var(--default-radius);
+    font-family: Inconsolata, sans-serif;
+    font-size: 20px;
+    font-weight: 800;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1;
+    letter-spacing: -0.3px;
+    text-align: center;
+    color: #0D082D;
+    background-color: #F57463;
+}
