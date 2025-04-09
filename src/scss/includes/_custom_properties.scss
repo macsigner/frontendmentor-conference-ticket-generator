@@ -15,5 +15,6 @@
 
     // Sizes
     --max-content-width: 120rem;
-    --content-margin-side: max(1.6rem, calc((100vw - var(--max-content-width)) / 2))
+    --content-margin-side: max(1.6rem, calc((100vw - var(--max-content-width)) / 2));
+    --default-radius: 1.2rem;
 }

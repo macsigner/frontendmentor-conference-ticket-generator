@@ -23,25 +23,27 @@
     <form>
         <label>
             Upload Avatar
-            <input type="file" name="avatar">
-            Drag and drop or click to upload
-            Upload your photo (JPG or PNG, max size: 500KB).
+            <div class="input input--upload">
+                <input type="file" name="avatar">
+                Drag and drop or click to upload
+                Upload your photo (JPG or PNG, max size: 500KB).
+            </div>
         </label>
         <label>
             Full Name
 
-            <input type="text" name="name" placeholder="Nonatan Kristof">
+            <input class="input" type="text" name="name" placeholder="Nonatan Kristof">
         </label>
         <label>
             Email Address
 
-            <input type="email" name="email" placeholder="example@email.com">
+            <input class="input" type="email" name="email" placeholder="example@email.com">
         </label>
         <label>
             GitHub Username
-            <input type="text" name="githubUsername" placeholder="@yourusername">
+            <input class="input" type="text" name="githubUsername" placeholder="@yourusername">
         </label>
-        <button>Generate My Ticket</button>
+        <button class="button-large">Generate My Ticket</button>
     </form>
 
     <template id="ticket">
