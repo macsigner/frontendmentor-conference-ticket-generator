@@ -1,5 +1,7 @@
+import Upload from './Upload.js';
+
 export default class App {
     constructor() {
-        console.log(this);
+        new Upload();
     }
 }

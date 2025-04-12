@@ -1,0 +1,15 @@
+/**
+ * cover bem module
+ */
+
+.cover {
+    position: relative;
+
+    &__item::after,
+    &__item-boefore::before {
+        content: '';
+        position: absolute;
+        inset: 0;
+        z-index: 10;
+    }
+}

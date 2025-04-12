@@ -21,14 +21,25 @@
     </hgroup>
 
     <form>
-        <label>
+        <div class="cover">
+
             Upload Avatar
             <div class="input input--upload">
-                <input type="file" name="avatar">
-                Drag and drop or click to upload
-                Upload your photo (JPG or PNG, max size: 500KB).
+                <figure>
+                    <img class="input__upload-img input__upload-img--placeholder" src="src/assets/images/icon-upload.svg" width="30" height="30" alt="">
+                </figure>
+
+                <label class="cover__item">
+                    <span class="input__default-label-content">
+                        Drag and drop or click to upload
+                    </span>
+                    <input type="file" name="avatar" accept="image/png, image/jpeg">
+                </label>
             </div>
-        </label>
+        </div>
+        <p class="info">
+            <img src="src/assets/images/icon-info.svg" width="16" height="16" alt=""> Upload your photo (JPG or PNG, max
+            size: 500KB).</p>
         <label>
             Full Name
 
